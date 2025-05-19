@@ -1,0 +1,157 @@
+/* style.css */
+
+/* Reset basique */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Corps de page */
+body {
+  background: #F0F4F8;
+  /* bleu très doux */
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  color: #333;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+/* Conteneur principal */
+.container {
+  background: #FFFFFF;
+  max-width: 900px;
+  width: 100%;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  padding: 40px;
+}
+
+/* Titres */
+h1 {
+  color: #3A506B;
+  /* bleu profond */
+  font-size: 2.5em;
+  margin-bottom: 0.5em;
+}
+
+h2 {
+  color: #1C2541;
+  /* presque noir bleuté */
+  font-size: 1.8em;
+  margin: 1.2em 0 0.5em;
+}
+
+h3 {
+  color: #1C2541;
+  font-size: 1.3em;
+  margin: 1em 0 0.5em;
+}
+
+/* Navigation */
+.nav-links {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 30px;
+}
+
+.nav-links a {
+  background: #5BC0BE;
+  /* turquoise pastel */
+  color: #fff;
+  padding: 10px 15px;
+  border-radius: 4px;
+  text-decoration: none;
+  transition: background 0.3s;
+}
+
+.nav-links a:hover {
+  background: #3A506B;
+}
+
+/* Sections en “cartes” */
+.section {
+  background: #F7FFF7;
+  /* vert très clair */
+  padding: 20px;
+  border-radius: 6px;
+  margin-bottom: 30px;
+}
+
+/* Listes */
+ul {
+  list-style: disc inside;
+  margin-top: 0.5em;
+}
+
+/* Liens */
+a {
+  color: #5BC0BE;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Équipe */
+.team-member {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.team-member img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 20px;
+}
+
+/* Galerie Partie 2 – 2×2, images plus petites */
+.image-gallery {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  margin-bottom: 1em;
+}
+
+.image-gallery img {
+  width: 100%;
+  height: auto;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Prototype Figma */
+.prototype-img {
+  width: 100%;
+  height: auto;
+  border: 1px solid #ccc;
+  padding: 4px;
+  border-radius: 4px;
+  display: block;
+  margin-top: 0.5em;
+}
+
+/* PDF embarqués */
+.pdf-embed {
+  width: 100%;
+  height: 600px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 1em;
+}
+
+/* Lien retour */
+.back-link {
+  display: inline-block;
+  margin-top: 30px;
+  color: #5BC0BE;
+  font-weight: bold;
+}
+
+.back-link:hover {
+  text-decoration: underline;
+}
