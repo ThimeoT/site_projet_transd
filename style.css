@@ -8,9 +8,12 @@
 }
 
 /* Corps de page */
+/* style.css */
+
+/* Corps de page avec image de fond */
 body {
-  background: #F0F4F8;
-  /* bleu très doux */
+  background: url('photo/train.png') no-repeat center center fixed;
+  background-size: cover;
   font-family: 'Helvetica Neue', Arial, sans-serif;
   color: #333;
   display: flex;
