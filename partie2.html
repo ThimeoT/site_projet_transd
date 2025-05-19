@@ -15,7 +15,8 @@
         }
 
         h1,
-        h2 {
+        h2,
+        h3 {
             color: #222;
         }
 
@@ -32,6 +33,19 @@
             width: 100%;
             height: 600px;
             border: 1px solid #ccc;
+        }
+
+        .image-gallery {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .image-gallery img {
+            width: calc(50% - 10px);
+            height: auto;
+            border: 1px solid #ccc;
+            border-radius: 4px;
         }
     </style>
 </head>
@@ -58,7 +72,7 @@
         </ul>
 
         <h3>Participants</h3>
-        <p>10 volontaires (hommes et femmes) âgés de 19 à 25 ans.</p>
+        <p>30 volontaires (hommes et femmes) âgés de 19 à 25 ans.</p>
 
         <h3>Protocole expérimental</h3>
         <ul>
@@ -82,11 +96,22 @@
     </div>
 
     <div class="section">
+        <h2>Illustrations de l'expérience</h2>
+        <div class="image-gallery">
+            <img src="photo/Lunettes.jpg" alt="Lunettes d’eye-tracking en action">
+            <img src="photo/Participant_en_pleine_experimentation.jpg" alt="Participant en pleine expérimentation">
+            <img src="photo/rouge.jpg" alt="rouge">
+            <img src="photo/Test_de_temps_de_réaction.jpg" alt="Test de temps de réaction">
+
+        </div>
+        <p>Ces images montrent le simulateur, l’équipement des participants et la procédure de test.</p>
+    </div>
+
+    <div class="section">
         <h2>Accès au protocole complet</h2>
-        <!-- Remplacez 'docs/Protocole expérimental.pdf' par le chemin réel du fichier PDF -->
-        <object class="pdf-embed" data="docs/Protocole expérimental.pdf" type="application/pdf">
+        <object class="pdf-embed" data="docs/Protocole_expérimental.pdf" type="application/pdf">
             <p>Votre navigateur ne peut pas afficher le PDF. Vous pouvez
-                <a href="docs/Protocole expérimental.pdf" download>Télécharger le protocole expérimental (PDF)</a>.
+                <a href="docs/Protocole_expérimental.pdf" download>Télécharger le protocole expérimental (PDF)</a>.
             </p>
         </object>
     </div>
