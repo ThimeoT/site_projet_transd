@@ -32,7 +32,7 @@ body {
 
 /* Conteneur principal */
 .container {
-  background: #f4f4f4;
+  background: #69A4B5;
   max-width: 900px;
   width: 100%;
   border-radius: 8px;
@@ -43,7 +43,7 @@ body {
 /* Titres */
 h1 {
   text-align: center;
-  color: #3A506B;
+  color: #ffffff;
   /* bleu profond */
   font-size: 2.5em;
   margin-bottom: 0.5em;
@@ -71,9 +71,9 @@ h3 {
 }
 
 .nav-links a {
-  background: #5BC0BE;
+  background: #BBD6DD;
   /* turquoise pastel */
-  color: #fff;
+  color: #0b1e3a;
   padding: 10px 15px;
   border-radius: 4px;
   text-decoration: none;
@@ -81,12 +81,12 @@ h3 {
 }
 
 .nav-links a:hover {
-  background: #3A506B;
+  background: #4d6a8e;
 }
 
 /* Sections en “cartes” */
 .section {
-  background: #F7FFF7;
+  background: #BBD6DD;
   /* vert très clair */
   padding: 20px;
   border-radius: 6px;
@@ -101,7 +101,7 @@ ul {
 
 /* Liens */
 a {
-  color: #5BC0BE;
+  color: #335b5b;
 }
 
 a:hover {
